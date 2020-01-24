@@ -1,0 +1,42 @@
+/* 72 dpi (web) = 595 X 842 pixels */
+/* 96 dpi =  768 x 1056 */
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  color: black;
+  background-color: #333333;
+}
+
+@media print {
+  body {
+    width: 21cm;
+    height: 29.7cm;
+    margin: 30mm 45mm 30mm 45mm;
+    /* change the margins as you want them to be. */
+  }
+}
+
+.resume {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  background-color: #fff6ee;
+  height: 297mm;
+  width: 210mm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+.column {
+  height: 100%;
+}
+
+.content {
+  margin: 0.5cm;
+}

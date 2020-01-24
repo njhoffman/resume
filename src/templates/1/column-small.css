@@ -1,0 +1,74 @@
+.column.small {
+  width: 30%;
+  background-color: #666a77;
+  color: #ffeeee;
+}
+
+.column.small .content {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.column.small h4 {
+  line-height: 2em;
+  background-color: #555866;
+  padding-left: 0.5cm;
+  padding-right: 0.5cm;
+}
+
+.column.small section {
+  margin-left: 0.5cm;
+  margin-right: 0.5cm;
+}
+
+.column.small .label {
+  font-size: 0.9em;
+}
+
+.column.small .value {
+  font-size: 0.8em;
+  color: #ccbbbb;
+}
+
+.column.small .skill {
+  height: 3em;
+  width: 100%;
+}
+
+.column.small .skill .label {
+  display: none;
+}
+
+.column.small .skill .name {
+  font-size: 0.9em;
+}
+
+.column.small .skill .rating-label {
+  float: right;
+  font-size: 0.8em;
+  color: #ddd;
+}
+
+.column.small .rating-wrapper {
+  border: solid 1px black;
+  height: 1em;
+}
+
+.column.small .rating {
+  height: 100%;
+  /* background: #222255; */
+  background: #aabbcc;
+  /* background: #aabbcc; */
+  color: transparent;
+  /* height: 0.8em; */
+}
+
+.column_small .job .left {
+  width: 30%;
+  display: inline-block;
+}
+
+.column_small .job .right {
+  width: 70%;
+  display: inline-block;
+}
