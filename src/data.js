@@ -16,7 +16,7 @@ module.exports = {
       title: 'Software Engineer',
       name: 'Independent Contracting',
       location: 'Cedar Rapids, IA',
-      dates: ['12/01/2016', 'present'],
+      dates: ['2016-12', '2019-03'],
       bullets: [
         'Provided contract-based projects and monthly support for clients on variety of languages and platforms.',
         'Node.JS, React, PHP, Wordpress, Python, Django'
@@ -69,7 +69,6 @@ module.exports = {
       dates: ['2011-06', '2013-04'],
       bullets: [
         'Created and maintained medium-scale sites for clients from a variety of industries including health care and retail.',
-        'Built in-house CMS solution "Boost" to standardize common functionality between sites.',
         'PHP, Laravel, MySQL'
       ],
       content: ''
@@ -142,7 +141,7 @@ module.exports = {
       rating: '95'
     },
     {
-      name: 'Database Management',
+      name: 'Database Design',
       rating: '85'
     }
   ]

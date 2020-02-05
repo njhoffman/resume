@@ -14,7 +14,7 @@ const ColumnLarge = () => (
           </li>
           <li>
             Strongly motivated developer and a fast learner with a background in
-            a variety of technology stacks.
+            a variety of languages, frameworks and technologies.
           </li>
           <li>
             Broad array of skills developed throughout career including design,
@@ -61,7 +61,7 @@ const ColumnLarge = () => (
         {data.education.map((item, i) => (
           <div className="education-item" key={i}>
             <div className="left">
-              <p>
+              <p className="date">
                 {item.dates[0]}-<br />
                 {item.dates[1]}
               </p>
@@ -77,6 +77,7 @@ const ColumnLarge = () => (
           </div>
         ))}
       </section>
+      <div className="epilog">* References available upon request.</div>
     </div>
   </div>
 );
