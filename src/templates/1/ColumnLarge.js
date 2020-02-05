@@ -1,16 +1,30 @@
 import React from 'react';
 
 import './column-large.css';
-import data from '../../data.json';
+import data from '../../data';
 
 const ColumnLarge = () => (
   <div className="column large">
     <div className="content">
       <section className="summary">
-        Senior Software Engineering with nine years of hands-on experience in
-        core web design, coding, and product life cycle development. To
-        contribute my programming services to a dynamic and growing company
-        while expanding and diversifying my own skills.
+        <ul>
+          <li>
+            Senior Software Engineering with nine years of hands-on experience
+            in core web design, coding, and product life cycle development.
+          </li>
+          <li>
+            Strongly motivated developer and a fast learner with a background in
+            a variety of technology stacks.
+          </li>
+          <li>
+            Broad array of skills developed throughout career including design,
+            infrastructure, and system administration.
+          </li>
+          <li>
+            Currently looking to contribute my services to a dynamic and growing
+            company that values creativity and the adoption of new technology.
+          </li>
+        </ul>
       </section>
       <section className="summary hidden">
         System administration skills, including AWS, Apache and Nginx server
@@ -19,31 +33,47 @@ const ColumnLarge = () => (
       </section>
       <section className="experience">
         <h3>Experience</h3>
-        {data.jobs.map(job => (
-          <div className="job">
+        {data.jobs.map((job, i) => (
+          <div className="job" key={i}>
             <div className="left">
-              <p className="date">{job.dates}</p>
-            </div>
-            <div className="right">
-              <p className="title">{job.title}</p>
-              <p className="location">
-                {job.name}, {job.location}
+              <p className="date">
+                {job.dates[0]}-<br />
+                {job.dates[1]}
               </p>
-              <p className="content">{job.content}</p>
+            </div>
+            <div className="right header">
+              <p className="title">{job.title}</p>
+              <p>
+                <span className="name">{job.name}</span>
+                <span className="location">{job.location}</span>
+              </p>
+              <ul className="bullet-points">
+                {job.bullets.map((bullet, i) => (
+                  <li key={i}>{bullet}</li>
+                ))}
+              </ul>
             </div>
           </div>
         ))}
       </section>
       <section className="education">
         <h3>Education</h3>
-        {data.education.map(item => (
-          <div className="education-item">
-            <p>{item.title}</p>
-            <p>{item.subtitle}</p>
-            <p>{item.name}</p>
-            <p>{item.location}</p>
-            <p>{item.dates}</p>
-            <p>{item.content}</p>
+        {data.education.map((item, i) => (
+          <div className="education-item" key={i}>
+            <div className="left">
+              <p>
+                {item.dates[0]}-<br />
+                {item.dates[1]}
+              </p>
+            </div>
+            <div className="right">
+              <p className="title">{item.title}</p>
+              <p>
+                <span className="name">{item.name}</span>
+                <span className="location">{item.location}</span>
+              </p>
+              <p className="content">{item.content}</p>
+            </div>
           </div>
         ))}
       </section>

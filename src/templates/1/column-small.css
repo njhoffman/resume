@@ -2,6 +2,34 @@
   width: 30%;
   background-color: #666a77;
   color: #ffeeee;
+  overflow: hidden;
+}
+
+.column.small p {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.column.small .header {
+  text-align: center;
+}
+.column.small .header .name {
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.column.small .header .title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column.small .header img.swirl {
+  width: 100%;
+  height: 25px;
+  opacity: 0.5;
+  display: block;
+  filter: invert(1);
+  margin-bottom: 0.5em;
 }
 
 .column.small .content {
@@ -27,7 +55,7 @@
 
 .column.small .value {
   font-size: 0.8em;
-  color: #ccbbbb;
+  color: #cfc6c6;
 }
 
 .column.small .skill {
@@ -40,24 +68,33 @@
 }
 
 .column.small .skill .name {
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 .column.small .skill .rating-label {
   float: right;
-  font-size: 0.8em;
+  font-size: 0.75em;
+  font-style: italic;
   color: #ddd;
 }
 
 .column.small .rating-wrapper {
-  border: solid 1px black;
-  height: 1em;
+  border: solid 1px #677;
+  height: 0.8em;
+  margin: 2px;
+  background-color: #555866;
 }
 
 .column.small .rating {
   height: 100%;
   /* background: #222255; */
-  background: #aabbcc;
+  /* background: #aabbcc; */
+  background: linear-gradient(
+    to right,
+    rgba(170, 190, 220, 0.2) 0%,
+    rgba(170, 190, 220, 0.6) 60%,
+    rgba(170, 190, 220, 0.9) 100%
+  );
   /* background: #aabbcc; */
   color: transparent;
   /* height: 0.8em; */

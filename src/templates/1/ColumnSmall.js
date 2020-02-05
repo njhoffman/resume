@@ -1,14 +1,15 @@
 import React from 'react';
 
 import './column-small.css';
-import data from '../../data.json';
+import data from '../../data';
 
 const ColumnSmall = () => (
   <div className="column small">
     <div className="content">
-      <section className="name">
-        <h1>Nicholas Hoffman</h1>
-        <i>Senior Software Engineer</i>
+      <section className="header">
+        <h1 className="name">Nicholas Hoffman</h1>
+        <img className="swirl" src="swirl.png" />
+        <i className="title">Senior Software Engineer</i>
       </section>
       <h4>Personal Info</h4>
       <section className="contact">
@@ -42,13 +43,39 @@ const ColumnSmall = () => (
           <span className="value">{data.contact.linkedin}</span>
         </p>
       </section>
-      <h4>Technical Skills</h4>
+      <h4>Coding Skills</h4>
       <section className="skills">
-        {data.skills.map(skill => (
-          <div className="skill">
+        {data.codingSkills.map((skill, i) => (
+          <div className="skill" key={i}>
             <span className="name">{skill.name}</span>
             <div className="rating-wrapper">
-              <div className="rating" style={{width: `${skill.rating}%`}}></div>
+              <div
+                className="rating"
+                style={{ width: `${skill.rating}%` }}
+              ></div>
+            </div>
+            <span className="rating-label">
+              {skill.rating > 90
+                ? 'Excellent'
+                : skill.rating > 80
+                ? 'Proficient'
+                : skill.rating > 70
+                ? 'Advanced'
+                : 'Average'}
+            </span>
+          </div>
+        ))}
+      </section>
+      <h4>Other Skills</h4>
+      <section className="skills">
+        {data.otherSkills.map((skill, i) => (
+          <div className="skill" key={i}>
+            <span className="name">{skill.name}</span>
+            <div className="rating-wrapper">
+              <div
+                className="rating"
+                style={{ width: `${skill.rating}%` }}
+              ></div>
             </div>
             <span className="rating-label">
               {skill.rating > 90
