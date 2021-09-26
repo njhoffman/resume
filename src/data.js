@@ -92,11 +92,11 @@ module.exports = {
     }
   ],
   contact: {
-    address: '13609 Campesina Dr',
+    address: '11721 Monterosso Dr',
     city: 'Austin',
     state: 'TX',
     zip: '78727-3445',
-    phone: '563-505-0765',
+    phone: '737-300-9249',
     email: 'njhoffman1982@gmail.com',
     linkedin: 'http://linkedin.com/in/nhoffman-tx',
     github: 'http://github.com/njhoffman'
