@@ -1,6 +1,21 @@
 module.exports = {
   jobs: [
     {
+      title: 'Software Engineer',
+      name: 'SpaDash mobile haircuts service',
+      location: 'Austin, TX',
+      dates: ['2021-01', '2022-08'],
+      bullets: [
+        'Helped create apps in React Native with server components in Go.',
+        'Managed Kubernetes deployment of AWS resources.',
+        'Node.JS, React, Go, Kubernetes, Terraform'
+        // 'Helped create provider and customer app in React Native.',
+        // 'Assist in Kubernetes cluster deployment and management of AWS resources. ',
+        // 'Built admin app interface and help maintain server backend components in Go.'
+      ],
+      content: ''
+    },
+    {
       title: 'Senior Software Engineer',
       name: 'SambaTV',
       location: 'Austin, TX',
@@ -107,16 +122,20 @@ module.exports = {
       rating: '95'
     },
     {
-      name: 'PHP',
-      rating: '85'
+      name: 'Go',
+      rating: '60'
+    },
+    {
+      name: 'Kubernetes',
+      rating: '60'
     },
     {
       name: 'Python',
       rating: '70'
     },
     {
-      name: 'C/C++',
-      rating: '60'
+      name: 'React / Front-end Design',
+      rating: '80'
     },
     {
       name: 'Terraform / Ansible',
@@ -130,11 +149,11 @@ module.exports = {
   otherSkills: [
     {
       name: 'DevOps',
-      rating: '70'
+      rating: '80'
     },
     {
-      name: 'Infrastructure',
-      rating: '75'
+      name: 'Infrastructure (AWS)',
+      rating: '70'
     },
     {
       name: 'System Administration',
