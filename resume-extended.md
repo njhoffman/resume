@@ -33,6 +33,7 @@ Senior Software Engineer
 Software Engineer
 
 *   Provided contract-based projects and monthly support for clients on a variety of languages and platforms.
+-   Primary engineer for non-profit One Mission Fundraising: e-commerce site with complex product customizations
 
 # TapOnIt
 
