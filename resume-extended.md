@@ -1,7 +1,8 @@
 # SpaDash Mobile Haircuts
 
-*Node.JS, React, Go, Kubernetes, Terraform*
 **Jan 2021 — Apr 2023 (2 yrs, 3 mo)**
+
+*Node.JS, React, Go, Kubernetes, Terraform*
 Co-founder and Software Engineer
 
 *   Helped create provider (stylist) and customer facing apps in React Native.
@@ -12,8 +13,9 @@ Co-founder and Software Engineer
 
 # Samba TV
 
-*Node.JS, React, GraphQL, Redis, Terraform, Ansible, AWS*
 **Mar 2019 — Nov 2019 (8 mos)**
+
+*Node.JS, React, GraphQL, Redis, Terraform, Ansible, AWS*
 Senior Software Engineer
 
 *   Created enterprise web applications that consumed and presented TV marketing data from complex data pipelines.
@@ -22,16 +24,18 @@ Senior Software Engineer
 
 # Independent Contracting
 
-*Node.JS, React, PHP, Wordpress, Python, Django*
 **Dec 2016 — Mar 2019 (2 yrs, 3 mos)**
+
+*Node.JS, React, PHP, Wordpress, Python, Django*
 Software Engineer
 
 *   Provided contract-based projects and monthly support for clients on a variety of languages and platforms.
 
 # TapOnIt
 
-*Node.JS, Redis, MSSQL, Vue.JS, AWS*
 **Jun 2017 — Mar 2018 (9 mos)**
+
+*Node.JS, Redis, MSSQL, Vue.JS, AWS*
 Lead Full-Stack Developer
 
 *   Created and maintained software responsible for sending daily MMS messages to over 100k recipients.
@@ -40,8 +44,9 @@ Lead Full-Stack Developer
 
 # MetaCommunications
 
-*Node.JS, Backbone.js, Riak, Memcached, AWS*
 **Jun 2015 — Nov 2016 (1 yr, 5 mos)**
+
+*Node.JS, Backbone.js, Riak, Memcached, AWS*
 Senior Software Engineer
 
 *   Built startup app ‘ProofMe’ which facilitates work collaboration and review on a wide variety of multimedia formats.
@@ -50,8 +55,9 @@ Senior Software Engineer
 
 # Leepfrog Technologies
 
-*SpiderCodeJS (in-house JS engine), C++, SQLite*
 **Apr 2013 — Jun 2015 (2 yrs, 2 mos)**
+
+*SpiderCodeJS (in-house JS engine), C++, SQLite*
 Javascript Engineer
 
 *   Developed and maintained collegiate course catalog publishing software for hundreds of universities.
@@ -59,8 +65,9 @@ Javascript Engineer
 
 # Metro Studios
 
-*PHP, Laravel, MySQL*
 **Jun 2011 — Apr 2013 (1 yr, 10 mos)**
+
+*PHP, Laravel, MySQL*
 Web Developer
 
 *   Created and maintained medium-scale sites for clients from a variety of industries including health care and retail.
